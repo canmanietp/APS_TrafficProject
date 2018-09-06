@@ -5,7 +5,7 @@
 - [SUMO](http://sumo.dlr.de/wiki/Installing)
 
 To test:  
-Open a command line, `cd Simulation` then `python test.py`. The SUMO GUI should open and allow you to run the simulation.
+Open a command line, run `python test.py`. The SUMO GUI should open and allow you to run the simulation.
 
 ## Getting started
 
