@@ -20,7 +20,7 @@ Notes:
 
 The example code includes two induction loops (the yellow rectangles in diagram below) in the network and one lane area detector (the blue strip), defined in `data/cross.det.xml`.
 
-<p align="center"><img src="https://i.imgur.com/Pw2JoYR.png" width="350" height="350" /></p>
+<p align="center"><img src="https://i.imgur.com/IiYIlLC.png" width="350" height="350" /></p>
 
 The state of these can be read on-line during the simulation using TraCI. See the documentation for [induction loops](http://sumo.sourceforge.net/pydoc/traci._inductionloop.html) and [lane area detectors](http://sumo.sourceforge.net/pydoc/traci._lanearea.html). For example, `traci.inductionloop.getLastStepVehicleNumber("nA0")` will return  the number of vehicles that were on the induction loop `nA0` within the last simulation step. Make sure to read the documentation both from SUMO and TraCI to know how to interpret these variables.
 
