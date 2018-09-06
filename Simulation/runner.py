@@ -83,17 +83,10 @@ def run():
         step += 1
         
     traci.close()
-    sys.stdout.flush()       
-
-def get_options():
-    optParser = optparse.OptionParser()
-    optParser.add_option("--nogui", action="store_true",
-                         default=False, help="run the commandline version of sumo")
-    options, args = optParser.parse_args()
-    return options
+    sys.stdout.flush()
 
 # this is the main entry point of this script
-def run_n_steps(N,gui_opt):
+def simulate_n_steps(N,gui_opt):
     # this script has been called from the command line. It will start sumo as a
     # server, then connect and run
     if gui_opt=='nogui':
