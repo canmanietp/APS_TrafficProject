@@ -15,6 +15,8 @@
 # @date    2009-03-26
 # @version $Id$
 
+# Modified for TUDelft course CS4010 by Canmanie T. Ponnambalam, September 2018
+
 from __future__ import absolute_import
 from __future__ import print_function
 
