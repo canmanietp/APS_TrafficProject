@@ -25,7 +25,7 @@ The example code includes two induction loops (the yellow rectangles in diagram 
 
 <p align="center"><img src="https://i.imgur.com/IiYIlLC.png" width="350" height="350" /></p>
 
-The state of these can be read on-line during the simulation using TraCI. See the documentation for [induction loops](http://sumo.sourceforge.net/pydoc/traci._inductionloop.html) and [lane area detectors](http://sumo.sourceforge.net/pydoc/traci._lanearea.html). For example, `traci.inductionloop.getLastStepVehicleNumber("nA0")` will return  the number of vehicles that were on the induction loop `nA0` within the last simulation step. Make sure to read the documentation both from SUMO and TraCI to know how to interpret these variables.
+The state of these can be read on-line during the simulation using TraCI. See the documentation for [induction loops](http://sumo.sourceforge.net/pydoc/traci._inductionloop.html) and [lane area detectors](http://sumo.sourceforge.net/pydoc/traci._lanearea.html). For example, `traci.inductionloop.getLastStepVehicleNumber("nA0")` will return  the number of vehicles that were on the induction loop nA0 within the last simulation step. Make sure to read the documentation both from SUMO and TraCI to know how to interpret these variables.
 
 An output summary of objects listed in `data/cross.det.xml` is printed in `data/cross.out` after the simulation is run, where the state of each detector/induction loop/traffic signal etc. is printed at the time step interval defined by `freq` in the object definition. 
 
