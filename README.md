@@ -1,7 +1,7 @@
 # APS_TrafficProject
 
 ## Necessary installations
-- Python
+- [Python](https://www.python.org/downloads/)
 - [SUMO](http://sumo.dlr.de/wiki/Installing)
 
 To test:  
