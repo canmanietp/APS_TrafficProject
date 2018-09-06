@@ -22,7 +22,6 @@ import os
 import sys
 import optparse
 import random
-import numpy as np
 
 #Declare SUMO_HOME: export SUMO_HOME="/Users/canmanie/Documents/LearnSDM/Code/sumo"
 
