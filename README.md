@@ -18,6 +18,6 @@ Notes:
 ### Induction loops and edge detectors
 The example code includes two induction loops on the southbound side of the 
 
-<center><img src="https://i.imgur.com/AD7UWeC.png" width="200" height="200" /></center>
+<center><img src="https://i.imgur.com/AD7UWeC.png" width="350" height="350" /></center>
 
 Printed in `cross.out`
