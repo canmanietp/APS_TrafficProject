@@ -6,6 +6,4 @@
 - TraCI
 
 To test:
-1. Open a command line
-2. `cd Simulation`
-3. `python test.py`
+Open a command line, `cd Simulation` then `python test.py`
