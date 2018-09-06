@@ -13,7 +13,7 @@ You can design your own road network by modifying the files in the /data folder 
 
 Notes:
 - After modifying files in the data folder, run in the command line `cd data` and then `netconvert --node-files=cross.nod.xml --edge-files=cross.edg.xml --output-file=cross.net.xml`
-- Routes are generated automatically in the `generate_routefile()` method in `runner.py`. This can be modified to change the probability distributions of vehicle departures and the paths of the vehicles.
+- Routes are generated automatically by the `generate_routefile()` method in `runner.py`. This can be modified to change the probability distributions of vehicle departures and the paths of the vehicles.
 - Outside of testing, you will likely want to run your simulations without the GUI. This can be done by calling the method `simulate_n_steps(N,'nogui')` in `runner.py` with *'nogui'* instead of *'gui'*.
 
 ### Induction loops and lane area detectors
