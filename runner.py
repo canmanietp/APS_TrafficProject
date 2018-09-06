@@ -49,7 +49,7 @@ def generate_routefile(N):
         
         vehNr = 0
         
-        # demand per time step
+        # demand in each direction per time step
         p_NS = 1. / 10
         p_SN = 1. / 20
     	p_WE = 3. / 20

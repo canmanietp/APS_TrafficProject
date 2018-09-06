@@ -13,9 +13,9 @@
 	<timedEvent type="SaveTLSStates" source="6" dest="cross.out"/>
 	
  -->
- 	<e1Detector id="nA" lane="n2A_0" pos="-10" freq="1" file="cross.out"/>
+ 	<e1Detector id="nA0" lane="n2A_0" pos="-20" freq="10" file="cross.out"/>
+ 	<e1Detector id="nA1" lane="n2A_1" pos="-20" freq="10" file="cross.out"/>
  	
  	<timedEvent type="SaveTLSStates" source="A" dest="cross.out"/>
-	<!-- <timedEvent type="SaveTLSStates" source="D" dest="cross.out"/> -->
    
 </additional>
