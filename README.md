@@ -9,7 +9,7 @@ Open a command line, run `python test.py`. The SUMO GUI should open and allow yo
 
 ## Getting started
 
-You can design your own road network by modifying the files in the /data folder (see SUMO documention [here](http://sumo.dlr.de/wiki/Tutorials/Hello_Sumo))
+You can design your own road network by modifying the files in the /data folder (see SUMO tutorial [here](http://sumo.dlr.de/wiki/Tutorials/Hello_Sumo))
 
 Notes:
 - After modifying files in the data folder, run in the command line `cd data` and then `netconvert --node-files=cross.nod.xml --edge-files=cross.edg.xml --output-file=cross.net.xml`
@@ -28,3 +28,6 @@ The state of these can be read on-line during the simulation using TraCI. See th
 An output summary of objects listed in `data/cross.det.xml` is printed in `data/cross.out` after the simulation is run, where the state of each detector/induction loop/traffic signal etc. is printed at the time step interval defined by `freq` in the object definition. 
 
 ### Traffic lights
+A node can be defined as a traffic-signal-controlled intersection in `data/cross.nod.xml`. The phases of the signal can be defined in `data/cross.det.xml`, see http://sumo.dlr.de/wiki/Simulation/Traffic_Lights for further explanation on signal phases.
+
+Using TraCI, the current phase of the signal can be read or set. For example, `traci.trafficlight.setPhase("A",0)` will set the phase of light A to 0. Further documentation on controlling and reading lights with TraCI is [here](http://www.sumo.dlr.de/daily/pydoc/traci._trafficlight.html#TrafficLightDomain-setPhase).
