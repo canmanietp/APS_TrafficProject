@@ -7,8 +7,6 @@
 To test:  
 Open a command line, run `python test.py`. The SUMO GUI should open and allow you to run the simulation.
 
-![SUMO GUI for demo network](https://imgur.com/a/NRQtj3N "Demo network")
-
 ## Getting started
 
 You can design your own road network by modifying the files in the /data folder (see SUMO documention [here](http://sumo.dlr.de/wiki/Tutorials/Hello_Sumo))
@@ -19,5 +17,7 @@ Notes:
 
 ### Induction loops and edge detectors
 The example code includes two induction loops on the southbound side of the 
+
+<center><img src="https://i.imgur.com/AD7UWeC.png" width="200" height="200" /></center>
 
 Printed in `cross.out`
