@@ -16,7 +16,7 @@ Notes:
 - Routes are generated automatically in the `generate_routefile()` method in `runner.py`. This can be modified to change the probability distributions of vehicle departures and the paths of the vehicles.
 
 ### Induction loops and edge detectors
-The example code includes two induction loops on the southbound side of the 
+The example code includes two induction loops (the yellow rectangles in diagram below).
 
 <center><img src="https://i.imgur.com/AD7UWeC.png" width="350" height="350" /></center>
 
