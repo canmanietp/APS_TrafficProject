@@ -16,6 +16,8 @@
  	<e1Detector id="nA0" lane="n2A_0" pos="-20" freq="10" file="cross.out"/>
  	<e1Detector id="nA1" lane="n2A_1" pos="-20" freq="10" file="cross.out"/>
  	
+ 	<laneAreaDetector id="wA0" lanes="w2A_0" pos="150" endPos="180" freq="10" file="cross.out"/> 
+ 	
  	<timedEvent type="SaveTLSStates" source="A" dest="cross.out"/>
    
 </additional>
