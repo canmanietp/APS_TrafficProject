@@ -99,6 +99,6 @@ def simulate_n_steps(N,gui_opt):
 
     # this is the normal way of using traci. sumo is started as a
     # subprocess and then the python script connects and runs
-    traci.start([sumoBinary, "-c", "data/cross.sumocfg","--tripinfo-output", "tripinfo.xml","--emission-output","emissions.xml"]) #,"--time-to-teleport=-1"
+    traci.start([sumoBinary, "-c", "data/cross.sumocfg","--tripinfo-output", "tripinfo.xml"]) # add ,"--emission-output","emissions.xml" if you want emissions report to be printed
     
     run()
