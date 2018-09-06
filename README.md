@@ -22,4 +22,4 @@ The example code includes two induction loops (the yellow rectangles in diagram 
 
 <center><img src="https://i.imgur.com/Pw2JoYR.png" width="350" height="350" /></center>
 
-Printed in `cross.out`
+An output summary is printed in `data/cross.out` after the simulation is run, where the state of each detector/loop/traffic signal etc. is printed at the time step interval defined by `freq` in the object definition.
