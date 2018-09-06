@@ -1,0 +1,21 @@
+<!--for output-->
+<additional>
+<!-- 
+
+	<tlLogic id="6" type="static" programID="5" offset="0">
+	        <phase duration="40" state="rrrrGGGggrrrrGGGgg"/>
+	        <phase duration="5"  state="rrrryyyyyrrrryyyyy"/>
+	        <phase duration="40" state="GGggrrrrrGGggrrrrr"/>
+	        <phase duration="5"  state="yyyyrrrrryyyyrrrrr"/>
+	</tlLogic>
+	
+	<timedEvent type="SaveTLSStates" source="0" dest="cross.out"/>
+	<timedEvent type="SaveTLSStates" source="6" dest="cross.out"/>
+	
+ -->
+ 	<e1Detector id="nA" lane="n2A_0" pos="-10" freq="1" file="cross.out"/>
+ 	
+ 	<timedEvent type="SaveTLSStates" source="A" dest="cross.out"/>
+	<!-- <timedEvent type="SaveTLSStates" source="D" dest="cross.out"/> -->
+   
+</additional>

@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<edges xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="http://sumo.dlr.de/xsd/edges_file.xsd">
+   
+   <!--  	Horizontal roads (WE) -->
+ 	<edge id="w2A" from="w" to="A" numLanes="2"/>
+ 	<edge id="A2e" from="A" to="e" numLanes="2"/>
+ 	
+ 	<!--  	Horizontal roads (EW) -->
+ 	<edge id="A2w" from="A" to="w" numLanes="2"/>
+ 	<edge id="e2A" from="e" to="A" numLanes="2"/>
+ 	
+	<!--  	Vertical roads (NS) -->
+ 	<edge id="n2A" from="n" to="A" numLanes="2"/>
+ 	<edge id="A2s" from="A" to="s" numLanes="2"/>
+ 	
+ 	<!--  	Vertical roads (SN) -->
+ 	<edge id="A2n" from="A" to="n" numLanes="2"/>
+ 	<edge id="s2A" from="s" to="A" numLanes="2"/>
+ 	
+</edges>
