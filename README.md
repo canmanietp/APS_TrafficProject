@@ -12,7 +12,7 @@ Open a command line, run `python test.py`. The SUMO GUI should open and allow yo
 
 ## Getting started
 
-You can design your own road network by modifying the files in the /data folder (see SUMO tutorial [here](http://sumo.dlr.de/wiki/Tutorials/Hello_Sumo))
+You can design your own road network by modifying the files in the `/data` folder (see SUMO tutorial [here](http://sumo.dlr.de/wiki/Tutorials/Hello_Sumo))
 
 Notes:
 - After modifying files in the data folder, run in the command line `cd data` and then `netconvert --node-files=cross.nod.xml --edge-files=cross.edg.xml --output-file=cross.net.xml`
