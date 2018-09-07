@@ -87,8 +87,7 @@ def run():
 
 # this is the main entry point of this script
 def simulate_n_steps(N,gui_opt):
-    # this script has been called from the command line. It will start sumo as a
-    # server, then connect and run
+    # this will start sumo as a server, then connect and run
     if gui_opt=='nogui':
         sumoBinary = checkBinary('sumo')
     else:
