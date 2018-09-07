@@ -33,4 +33,4 @@ An output summary of elements listed in `data/cross.det.xml` is printed in `data
 ### Traffic lights
 A node is indicated to be a traffic-signal-controlled intersection in `data/cross.nod.xml`. The phases of the signal can be defined in `data/cross.det.xml`; see http://sumo.dlr.de/wiki/Simulation/Traffic_Lights for further explanation on signal phases.
 
-Using TraCI, the current phase of the signal can be read or set. For example, `traci.trafficlight.setPhase("A",0)` will set the phase of light `A` to 0. Further documentation on controlling and reading lights with TraCI is [here](http://www.sumo.dlr.de/daily/pydoc/traci._trafficlight.html#TrafficLightDomain-setPhase).
+Using TraCI, the current phase of the signal can be read or set. For example, `traci.trafficlight.setPhase("A",0)` will set the phase of light `A` to 0. Further documentation on interacting with lights using TraCI is [here](http://www.sumo.dlr.de/daily/pydoc/traci._trafficlight.html#TrafficLightDomain-setPhase).
