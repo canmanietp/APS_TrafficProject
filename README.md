@@ -7,7 +7,7 @@
 
 We will also be using [TraCI](http://www.sumo.dlr.de/userdoc/TraCI.html) to interface with SUMO on-line using Python. TraCI comes bundled with SUMO.
 
-To test:  
+**To test your installations**:  
 Open a command line, run `python test.py`. The SUMO GUI should open and allow you to run the simulation.
 
 ## Getting started
