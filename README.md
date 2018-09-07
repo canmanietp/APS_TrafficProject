@@ -3,7 +3,7 @@
 ## Necessary installations
 - [Python](https://www.python.org/downloads/)
 - [SUMO](http://sumo.dlr.de/wiki/Installing)
-	- You will need to set the environment variable `SUMO_HOME` to the base directory of your installation. This can be done temporarily using `export SUMO_HOME="/your/path/to/sumo"`. More details [here](http://sumo.dlr.de/wiki/Basics/Basic_Computer_Skills).
+	- You will need to set the environment variable `SUMO_HOME` to the base directory of your installation. This can be done temporarily by running `export SUMO_HOME="/your/path/to/sumo"`. More details [here](http://sumo.dlr.de/wiki/Basics/Basic_Computer_Skills).
 
 We will also be using [TraCI](http://www.sumo.dlr.de/userdoc/TraCI.html) to interface with SUMO on-line using Python. TraCI comes bundled with SUMO.
 
