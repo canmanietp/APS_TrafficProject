@@ -1,4 +1,4 @@
-# APS_TrafficProject
+# CS4010 Traffic Simulation Guide
 
 ## Necessary installations
 - [Python](https://www.python.org/downloads/)
