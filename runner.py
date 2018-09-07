@@ -25,8 +25,6 @@ import sys
 import optparse
 import random
 
-#Declare SUMO_HOME: export SUMO_HOME="/Users/canmanie/Documents/LearnSDM/Code/sumo"
-
 # we need to import python modules from the $SUMO_HOME/tools directory
 if 'SUMO_HOME' in os.environ:
     tools = os.path.join(os.environ['SUMO_HOME'], 'tools')
