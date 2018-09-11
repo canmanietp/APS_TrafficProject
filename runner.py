@@ -64,11 +64,11 @@ def generate_routefile(N):
         		print('    <vehicle id="car_%i" type="typeCar" route="SN" depart="%i"/>' % (vehNr,i), file=routes)
         		vehNr += 1
         		
-        	if random.uniform(0,1) > p_WE:
+        	if random.uniform(0,1) < p_WE:
         		print('    <vehicle id="car_%i" type="typeCar" route="WE" depart="%i"/>' % (vehNr,i), file=routes)
         		vehNr += 1
         		
-        	if random.uniform(0,1) > p_EW:
+        	if random.uniform(0,1) < p_EW:
         		print('    <vehicle id="car_%i" type="typeCar" route="EW" depart="%i"/>' % (vehNr,i), file=routes)
         		vehNr += 1
         		
